@@ -296,7 +296,7 @@ export default function App() {
           <div>
             <div
               style={{
-                minHeight: 320,
+                minHeight: 380,
                 background: "#f5f7fa",
                 padding: 24,
                 border: "1.5px solid #e3e8ee",
@@ -311,16 +311,12 @@ export default function App() {
             >
               <pre style={{ margin: 0, background: "none", fontFamily: "inherit" }}>
                 使用步驟：<br></br>
-
-                1.護理班表的網頁表格打開後按 Ctrl+U，會開啓Html。<br></br>
-
-                2.滑鼠點在Html的内容上按鍵盤 Ctrl+A 全選後，按 Ctrl+C 複製。<br></br>
-
-                3.到「護理班表匯出工具」的網頁上。<br></br>
-
-                4.在編輯内容頁簽按編輯，滑鼠點在文字方塊上，按 Ctrl+V 貼上，接著按儲存。<br></br>
-
-                5.再按 "匯出 Excel" 即可。<br></br>
+                1.護理班表查詢功能選好月份後進行查詢，查詢結果顯現後，按 Ctrl+U，會開啓原始 Html 視窗。<br></br>
+                2.再按鍵盤 Ctrl+A 全選後，按 Ctrl+C 複製。<br></br>
+                3.在本程式（護理班表匯出工具）的「編輯内容」頁簽裡按一下編輯，滑鼠點在文字方塊上，<br></br>
+                &nbsp;&nbsp;&nbsp;按 Ctrl+V 貼上，接著按儲存。<br></br>
+                4.再按 "匯出 Excel" 即可。<br></br>
+                5.開啓匯出的 Excel，如果要取消開啓的附註，「校閲-附註-顯示所有附註」這裏要取消。<br></br>
               </pre>
             </div>
           </div>

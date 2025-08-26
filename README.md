@@ -12,6 +12,15 @@
 
 5.再按 "匯出 Excel" 即可。
 
+# 工程師前端：React / Vite / TypeScript - 建立與啟動
+```js
+# 建立新專案，這裏應該改成colne這個專案 vghtpe-schedule-exporter
+npm create vite@latest web -- --template react-ts 
+cd web # 依據資料夾，這裏改vghtpe-schedule-exporter
+npm install # 安裝node_modules
+npm run dev # 預設 http://localhost:5173
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

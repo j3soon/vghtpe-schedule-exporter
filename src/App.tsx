@@ -8,14 +8,14 @@ export default function App() {
   const [savedText, setSavedText] = useState("");
   const [isEditing, setIsEditing] = useState(false); // 新增：編輯狀態
 
-  // 讀取 localStorage
-  useEffect(() => {
-    const saved = localStorage.getItem("mySavedText");
-    if (saved !== null) {
-      setSavedText(saved);
-      setInputText(saved);
-    }
-  }, []);
+  // // 讀取 localStorage
+  // useEffect(() => {
+  //   const saved = localStorage.getItem("mySavedText");
+  //   if (saved !== null) {
+  //     setSavedText(saved);
+  //     setInputText(saved);
+  //   }
+  // }, []);
 
   // 儲存到 localStorage
   const handleSave = () => {

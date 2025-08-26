@@ -12,6 +12,8 @@
 
 5.再按 "匯出 Excel" 即可。
 
+6.開啓匯出的 Excel，如果要取消開啓的附註解，「校閲-附註-顯示所有附註」這裏要取消。
+
 # 工程師前端：React / Vite / TypeScript - 建立與啟動
 ```js
 # 建立新專案，這裏應該改成colne這個專案 vghtpe-schedule-exporter

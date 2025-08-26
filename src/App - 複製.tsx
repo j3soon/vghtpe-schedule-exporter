@@ -296,7 +296,7 @@ export default function App() {
           <div>
             <div
               style={{
-                minHeight: 380,
+                minHeight: 320,
                 background: "#f5f7fa",
                 padding: 24,
                 border: "1.5px solid #e3e8ee",
@@ -321,8 +321,6 @@ export default function App() {
                 4.在編輯内容頁簽按編輯，滑鼠點在文字方塊上，按 Ctrl+V 貼上，接著按儲存。<br></br>
 
                 5.再按 "匯出 Excel" 即可。<br></br>
-
-                6.開啓匯出的 Excel，如果要取消開啓的附註解，「校閲-附註-顯示所有附註」這裏要取消。<br></br>
               </pre>
             </div>
           </div>
